@@ -22,8 +22,7 @@ public class WdsService {
 
     public String create() {
         sqsMessageSender.send(wds, new WdsMapper("test"));
-        System.out.println("AKIA5ZORCJYVSS2ANZ6V");
-        System.out.println("hiKRpamLz1JXJkHR5Uc++EaO5laP5JL3Ihg0TM6/");
+
         return "send successful";
     }
 
